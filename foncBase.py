@@ -38,3 +38,4 @@ t=len(k)
 print(" chenn karakte a san espas =>  {},  kantite karakte li chenn sa vin genyen => {}".format(k,t))
 
 ## nimewo 2
+print("nap komanse nan pati 2 a la: ")
