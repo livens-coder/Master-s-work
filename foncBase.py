@@ -27,3 +27,5 @@ for el, karakte in enumerate(chenn):
 print(lis)
 
 print(chaine.replace(' ', ''))
+
+## master lis  nimewo 2
