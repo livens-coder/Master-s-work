@@ -1,31 +1,40 @@
-print("hello")
-#marter srting nimewo 1
 
+#marter srting nimewo 1
+print("nap komanse ak fraz anba a")
 chaine= 'Jodia nap MANIPILE chenn kaRAkte'
-print(chaine.lower())
+print(chaine)
+print("-----------------------------------------------------")
+
+a=chaine.lower()
+print("mete tout karakte yo an miniski =>:" ,a)
 k=chaine.split(" ")
-print(k)
-print(chaine.title())
+print("koupe chenn nan tout kote ki gen espas =>:", k)
+b=chaine.title()
+print('tout premye let chak mo an majiskil =>:', b)
 nouvo_chenn = ''.join([let[0] for let in k if let])
-print(nouvo_chenn.lower())
+c=nouvo_chenn.lower()
+print('ekipere premye let chak mo =>: ', c)
 
 chenn=chaine.replace('a','@')
-print(chenn)
+print('Ranplase tout karakte <a> ki nan yon chenn pa <@> =>: ', chenn)
 nouvo_chenn=chaine[::-1]
-print(nouvo_chenn.upper())
-print(chaine.index('a'))
+
+print("Mete yon chenn karakte devan deye, answit mete l an majiskil =>: ", nouvo_chenn.upper())
+print("endeks premye karakte <a> ki nan yon chenn =>:", chaine.index('a'))
 chenn=chaine.lower()
 endeks=0
 for el, karakte in enumerate(chenn):
     if karakte == 'a':
         endeks += el
-print("som endeks a nan chenn karakte a se {} ".format(endeks))
+print("som endeks a nan chenn karakte a se =>: ", endeks)
 lis=[]
 for el, karakte in enumerate(chenn):
     if karakte == 'a':
         lis.append(el)
-print(lis)
+print("yon lis ki gen endeks tout karakte 'a' ki nan yon chenn => :", lis)
 
-print(chaine.replace(' ', ''))
+k=chaine.replace(' ', '')
+t=len(k)
+print(" chenn karakte a san espas =>  {},  kantite karakte li chenn sa vin genyen => {}".format(k,t))
 
-## master lis  nimewo 2
+## nimewo 2
