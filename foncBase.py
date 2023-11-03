@@ -39,6 +39,7 @@ print(" chenn karakte a san espas =>  {},  kantite karakte li chenn sa vin genye
 
 print("nimewo 2")
 print("------------------------------------------------: ")
+print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 k=[]
 
 for i in range(0,2):
