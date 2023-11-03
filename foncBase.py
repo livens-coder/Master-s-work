@@ -53,4 +53,8 @@ print("sa se lis eleman ou sezi a ki tou dizib pa 2", k)
 ## pati 2
 a= ''.join(map(str,k))
 print("men lis la sou fom chenn karakte", a)
+##pati 3
+lis_chenn=['nap', 'travay', 'python']
+
+
 
